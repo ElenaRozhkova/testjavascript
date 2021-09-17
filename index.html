@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body class="page">
+    <header>
+
+    </header>
+    <main>
+        <form id="userform" class="userform" action="index.php">
+            <label class="userform__text">Name
+                <input type="text" class="userform__name" value="Lena" required>
+            </label>
+            <label class="userform__text">Photo
+                 <input type="url" class="userform__photo"  value="https://www.ejin.ru/wp-content/uploads/2017/09/4-597.jpg">
+            </label>
+            <label class="userform__text">Birtsday
+                 <input type="date" class="userform__birtsday" value="2018-07-22">
+            </label>
+                <input type="submit" class="userform__submit" value="Start" disabled>
+        </form>
+        <div class="test"></div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <template id="mytemplate">
+        <div class="card">
+            <div class="deletetest">
+               <div class="name"></div>
+               <img class="delete" src="./image/1.jpg">
+            </div>
+            <div class="datum"></div>
+            <img class="image">
+        </div>
+    </template>
+</body>
+
+<script src ="./index.js"></script>
+</html>
